@@ -91,3 +91,36 @@
     display: inline-block;
   }
   
+  /* footer section */
+
+.footer {
+    background: #35424a;
+    padding: 2rem 0 1.5rem 0;
+  }
+  
+  .footer > .container > .call_to_action {
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer > .container > .newsletter {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer > .container > .newsletter > #email {
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #35424a;
+  }
+  
+  .footer > .container > .newsletter > #subscribe{
+      font-size: 1rem;
+      padding: .5rem;
+      background: #FF4728;
+      color: #fff;
+      border: none;
+      margin-top: .5rem;
+  }
+  
